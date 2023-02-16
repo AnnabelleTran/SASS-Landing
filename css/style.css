@@ -1,0 +1,61 @@
+body {
+  background-image: url("/images/phone.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position-x: center;
+  margin: 0;
+}
+
+.Text {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 10vw;
+  background-color: rgba(121, 156, 186, 0.25);
+  padding: 2.5vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  border-radius: 5vw;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(121, 156, 186, 0.25);
+  font-family: sans-serif;
+}
+
+.actuallinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  padding-left: 50vw;
+}
+.actuallinks a {
+  text-decoration: none;
+  color: black;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+.navtext {
+  justify-content: center;
+  padding-left: 5vw;
+  padding-right: 7.5vw;
+  font-size: 1.25vw;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons a {
+  background-color: hsl(219deg, 50%, 41%);
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 1vw;
+  font-size: 1.25vw;
+  margin: 0vw 1vw;
+  border-radius: 1vw;
+}/*# sourceMappingURL=style.css.map */
